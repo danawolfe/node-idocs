@@ -3,6 +3,20 @@ var bodyParser = require('body-parser')
 var parseString = require('xml2js').parseString; 
 var app = express();
  
+var tagNameProcessor = function(name) {
+    console.dir('tagName: ' + name);
+}
+var attrNameProcessor = function(name) {
+    console.dir('attrName: ' + name);
+}
+var valueProcessor = function(name) {
+    console.dir('value: ' + name);
+}
+var attrValueProcessor = function(name) {
+    console.dir('attrValue: ' + name);
+}
+
+
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.text({ type: 'text/xml' }));
@@ -24,7 +38,12 @@ app.use(bodyParser.json());
 //})
 
 app.post('/idoc', function (req, res) {
-    parseString(req.body, { explicitArray : false}, function(err, result) {
+    parseString(req.body, { tagNameProcessors: [tagNameProcessor],
+                            attrNameProcessors: [attrNameProcessor],
+                            valueProcessors: [valueProcessor],
+                            attrValueProcessors: [attrValueProcessor],
+                            explicitArray : false}, 
+                            function(err, result) {
         var crmTrans = result.CRMXIF_ORDER_SAVE_M02.IDOC.E101CRMXIF_BUSTRANS;
         
         var oppt = {

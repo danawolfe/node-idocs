@@ -1,0 +1,1088 @@
+{
+    "CRMXIF_ORDER_SAVE_M02": {
+        "IDOC": {
+            "$": {
+                "BEGIN": "1"
+            },
+            "EDI_DC40": {
+                "$": {
+                    "SEGMENT": "1"
+                },
+                "TABNAM": "EDI_DC40",
+                "MANDT": "800",
+                "DOCNUM": "0000000000739242",
+                "DOCREL": "731",
+                "STATUS": "30",
+                "DIRECT": "1",
+                "OUTMOD": "2",
+                "IDOCTYP": "CRMXIF_ORDER_SAVE_M02",
+                "MESTYP": "CRMXIF_ORDER_SAVE_M",
+                "SNDPOR": "SAPDC2",
+                "SNDPRT": "LS",
+                "SNDPRN": "DTZ_800",
+                "RCVPOR": "MINI8725",
+                "RCVPRT": "LS",
+                "RCVPRN": "MINI8725",
+                "CREDAT": "20150502",
+                "CRETIM": "160424",
+                "SERIAL": "20150502160421"
+            },
+            "E101CRMXIF_BUSTRANS": {
+                "$": {
+                    "SEGMENT": "1"
+                },
+                "APPL_SNAME": "CRMXIF_BUSTRANS",
+                "OBJECT_TASK": "U",
+                "OBJECT_GUID": "0050562014011ED4B68433A218EDD574",
+                "OBJECT_ID": "0000001661",
+                "PROCESS_TYPE": "OPPT",
+                "OBJECT_TYPE": "BUS2000111",
+                "POSTING_DATE": "20150401",
+                "DESCRIPTION": "High Tech Sales Spring - DLW Copy #1a",
+                "DESCR_LANGUAGE": "E",
+                "DESCR_LANGUAGE_ISO": "EN",
+                "LOGICAL_SYSTEM": "DTZ_800",
+                "CRM_RELEASE": "BBPCRM 702",
+                "CLIENT": "800",
+                "CREATED_AT": " 20150401034617",
+                "CREATED_BY": "DWOLFE",
+                "CHANGED_AT": " 20150502200420",
+                "CHANGED_BY": "DWOLFE",
+                "LOCAL_TIMEZONE": "CET",
+                "OBJECT_ID_OK": "X",
+                "HIGHEST_ITEM_NO": "0000000000",
+                "CRM_CHANGED_AT": " 20150502200420",
+                "DESCRIPTION_UC": "HIGH TECH SALES SPRING - DLW COPY #1A",
+                "SCENARIO": "BA",
+                "VALID_FROM_EXT": " 20150501220000",
+                "VERIFY_DATE": "              0",
+                "E101CRMXIF_ACTIVITY_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_ACTIVITY_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_ACTIVITY": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_ACTIVITY",
+                        "PRIORITY": "0",
+                        "COMPLETION": "000",
+                        "E101CRMXIF_ADDRESS": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_ADDRESS",
+                            "E103CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "E107CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    }
+                                }
+                            },
+                            "E101CRMXIF_ADDRESS_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                            }
+                        },
+                        "E101CRMXIF_ACT_REASON": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_ACT_REASON",
+                            "E101CRMXIF_ACT_REASON_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ACT_REASON_F"
+                            }
+                        },
+                        "E101CRMXIF_ACT_OUTCOME": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_ACT_OUTCOME",
+                            "E101CRMXIF_ACT_OUTCOME_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ACT_OUTCOME_F"
+                            }
+                        },
+                        "E101CRMXIF_ACTIVITY_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_ACTIVITY_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_LEAD_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_LEAD_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_LEAD": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_LEAD",
+                        "STATUS_SINCE": "00000000",
+                        "E101CRMXIF_LEAD_OUTCOME": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_LEAD_OUTCOME",
+                            "E101CRMXIF_LEAD_OUTCOME_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_LEAD_OUTCOME_F"
+                            }
+                        },
+                        "E101CRMXIF_LEAD_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_LEAD_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_OPPORTUNITY_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_OPPORTUNITY_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_OPPORTUNITY": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_OPPORTUNITY",
+                        "EXP_REVENUE": "              13000.0000",
+                        "BUDGET_BP": "              20000.0000",
+                        "STARTDATE": "20020130",
+                        "EXPECT_END": "20020215",
+                        "CURR_PHASE": "3",
+                        "PHASE_SINCE": "20020130",
+                        "PROBABILITY": "089",
+                        "FORECAST_REL": "X",
+                        "IMPORTANCE": "2",
+                        "SALESCYCLE": "1",
+                        "STATUS_SINCE": "20150403",
+                        "SYS_PROBABILITY": "000",
+                        "E101CRMXIF_OPPORT_OUTCOME": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_OPPORT_OUTCOME",
+                            "E101CRMXIF_OPPORT_OUTCOME_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_OPPORT_OUTCOME_F"
+                            }
+                        },
+                        "E101CRMXIF_OPPORTUNITY_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_OPPORTUNITY_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_PARTNER_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_PARTNER_XT",
+                    "DATAX": "X",
+                    "E101CRMXIF_PARTNER": [
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000003274",
+                            "PARTNER_GUID": "E6BA5A3007CCD411917708000627B381",
+                            "PARTNER_FCT": "00000004",
+                            "PARTNER_PFT": "0004",
+                            "PFT_SUBTYPE": "CRM",
+                            "MAINPARTNER": "X",
+                            "RELATION_PARTNER_NO": "0000003274",
+                            "RELATION_PARTNER_GUID": "E6BA5A3007CCD411917708000627B381",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "STD_BP_ADDRESS": "X",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011878",
+                            "ADDR_TYPE": "1",
+                            "DISPLAY_TYPE": "BP",
+                            "E1011006_IDENTIFICATION_KEY": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "BAPIBUS1006_IDENTIFICATION_KEY",
+                                "IDENTIFICATIONCATEGORY": "CRM002",
+                                "IDENTIFICATIONNUMBER": "0000003274"
+                            },
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "1",
+                                "TITLE": "Company",
+                                "NAME": "High Com",
+                                "CITY": "BOSTON",
+                                "DISTRICT": "SUFFOLK",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "02101",
+                                    "PO_BOX": "1030",
+                                    "TRANSPZONE": "0000000003",
+                                    "STREET": "Lincoln Ave",
+                                    "HOUSE_NO": "5000",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "LANGU": "E",
+                                    "LANGU_ISO": "EN",
+                                    "REGION": "MA",
+                                    "SORT1": "HT B2B HIGH COM",
+                                    "TIME_ZONE": "CST",
+                                    "TAXJURCODE": "2202501001",
+                                    "TEL1_NUMBR": "617",
+                                    "TEL1_EXT": "3242575",
+                                    "ADDR_NO": "0000011878",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000000371",
+                            "PARTNER_GUID": "73729F5E0B9AD411917408000627B381",
+                            "PARTNER_FCT": "00000012",
+                            "PARTNER_PFT": "0005",
+                            "PFT_SUBTYPE": "CRM",
+                            "MAINPARTNER": "X",
+                            "RELATION_PARTNER_NO": "0000000177",
+                            "RELATION_PARTNER_GUID": "8738C5C1B546D411917308000627B381",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "STD_BP_ADDRESS": "X",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011146",
+                            "ADDR_NP": "0000011145",
+                            "ADDR_TYPE": "2",
+                            "DISPLAY_TYPE": "BP",
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "2",
+                                "TITLE_P": "Mr.",
+                                "FIRSTNAME": "Scott",
+                                "LASTNAME": "Green",
+                                "FULLNAME": "Scott Green",
+                                "LANGU_P": "E",
+                                "LANGUP_ISO": "EN",
+                                "SORT1_P": "GREEN",
+                                "CITY": "Denver",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "80216",
+                                    "STREET": "South Drive",
+                                    "HOUSE_NO": "455",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "REGION": "CO",
+                                    "TIME_ZONE": "MST",
+                                    "ADDR_NO": "0000011146",
+                                    "LANGU_CR_P": "D",
+                                    "LANGUCPISO": "DE",
+                                    "PERS_NO": "0000011145",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000000371",
+                            "PARTNER_GUID": "73729F5E0B9AD411917408000627B381",
+                            "PARTNER_FCT": "00000014",
+                            "PARTNER_PFT": "0008",
+                            "PFT_SUBTYPE": "CRM",
+                            "MAINPARTNER": "X",
+                            "RELATION_PARTNER_NO": "0000000177",
+                            "RELATION_PARTNER_GUID": "8738C5C1B546D411917308000627B381",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "STD_BP_ADDRESS": "X",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011146",
+                            "ADDR_NP": "0000011145",
+                            "ADDR_TYPE": "2",
+                            "DISPLAY_TYPE": "BP",
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "2",
+                                "TITLE_P": "Mr.",
+                                "FIRSTNAME": "Scott",
+                                "LASTNAME": "Green",
+                                "FULLNAME": "Scott Green",
+                                "LANGU_P": "E",
+                                "LANGUP_ISO": "EN",
+                                "SORT1_P": "GREEN",
+                                "CITY": "Denver",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "80216",
+                                    "STREET": "South Drive",
+                                    "HOUSE_NO": "455",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "REGION": "CO",
+                                    "TIME_ZONE": "MST",
+                                    "ADDR_NO": "0000011146",
+                                    "LANGU_CR_P": "D",
+                                    "LANGUCPISO": "DE",
+                                    "PERS_NO": "0000011145",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000000464",
+                            "PARTNER_GUID": "0EBB5A3007CCD411917708000627B381",
+                            "PARTNER_FCT": "00000015",
+                            "PARTNER_PFT": "0007",
+                            "PFT_SUBTYPE": "CRM",
+                            "MAINPARTNER": "X",
+                            "RELATION_PARTNER_NO": "0000003275",
+                            "RELATION_PARTNER_GUID": "96BB5A3007CCD411917708000627B381",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "STD_BP_ADDRESS": "X",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011897",
+                            "ADDR_NP": "0000011879",
+                            "ADDR_TYPE": "2",
+                            "DISPLAY_TYPE": "BP",
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "2",
+                                "TITLE_P": "Mr.",
+                                "FIRSTNAME": "Jeff",
+                                "LASTNAME": "Daniels",
+                                "FULLNAME": "Jeff Daniels",
+                                "LANGU_P": "E",
+                                "LANGUP_ISO": "EN",
+                                "CITY": "BOSTON",
+                                "DISTRICT": "SUFFOLK",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "02101",
+                                    "STREET": "Lincoln Ave",
+                                    "HOUSE_NO": "5000",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "REGION": "MA",
+                                    "TIME_ZONE": "CST",
+                                    "TAXJURCODE": "2202501001",
+                                    "TEL1_NUMBR": "617",
+                                    "TEL1_EXT": "5552575",
+                                    "ADDR_NO": "0000011897",
+                                    "LANGU_CR_P": "D",
+                                    "LANGUCPISO": "DE",
+                                    "PERS_NO": "0000011879",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000000465",
+                            "PARTNER_GUID": "BEBB5A3007CCD411917708000627B381",
+                            "PARTNER_FCT": "00000015",
+                            "PARTNER_PFT": "0007",
+                            "PFT_SUBTYPE": "CRM",
+                            "RELATION_PARTNER_NO": "0000003275",
+                            "RELATION_PARTNER_GUID": "96BB5A3007CCD411917708000627B381",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011881",
+                            "ADDR_NP": "0000011882",
+                            "ADDR_TYPE": "3",
+                            "DISPLAY_TYPE": "BP",
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "3",
+                                "TITLE_P": "Mr.",
+                                "FIRSTNAME": "George",
+                                "LASTNAME": "Nelligen",
+                                "FULLNAME": "George Nelligen",
+                                "LANGU_P": "E",
+                                "LANGUP_ISO": "EN",
+                                "TITLE": "Company",
+                                "NAME": "Tidemann Electronics",
+                                "CITY": "BOSTON",
+                                "DISTRICT": "SUFFOLK",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "02110",
+                                    "PO_BOX": "1030",
+                                    "TRANSPZONE": "0000000001",
+                                    "STREET": "Federal Street",
+                                    "HOUSE_NO": "106",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "LANGU": "E",
+                                    "LANGU_ISO": "EN",
+                                    "REGION": "MA",
+                                    "SORT1": "HT B2B TIDEMANN",
+                                    "TIME_ZONE": "CST",
+                                    "TAXJURCODE": "2202501001",
+                                    "TEL1_NUMBR": "617",
+                                    "TEL1_EXT": "5368217",
+                                    "ADDR_NO": "0000011881",
+                                    "LANGU_CR_P": "E",
+                                    "LANGUCPISO": "EN",
+                                    "PERS_NO": "0000011882",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PARTNER",
+                            "PARTNER_NO": "0000003274",
+                            "PARTNER_GUID": "E6BA5A3007CCD411917708000627B381",
+                            "PARTNER_FCT": "00000021",
+                            "PARTNER_PFT": "0006",
+                            "PFT_SUBTYPE": "CRM",
+                            "MAINPARTNER": "X",
+                            "KIND_OF_ENTRY": "A",
+                            "ADDR_ORIGIN": "A",
+                            "STD_BP_ADDRESS": "X",
+                            "OBJECT_TASK": "U",
+                            "ADDR_NR": "0000011878",
+                            "ADDR_TYPE": "1",
+                            "DISPLAY_TYPE": "BP",
+                            "E1011006_IDENTIFICATION_KEY": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "BAPIBUS1006_IDENTIFICATION_KEY",
+                                "IDENTIFICATIONCATEGORY": "CRM002",
+                                "IDENTIFICATIONNUMBER": "0000003274"
+                            },
+                            "E102CRMXIF_ADDRESS": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_ADDRESS",
+                                "ADDR_TYPE": "1",
+                                "TITLE": "Company",
+                                "NAME": "High Com",
+                                "CITY": "BOSTON",
+                                "DISTRICT": "SUFFOLK",
+                                "E104CRMXIF_ADDRESS": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "POSTL_COD1": "02101",
+                                    "PO_BOX": "1030",
+                                    "TRANSPZONE": "0000000003",
+                                    "STREET": "Lincoln Ave",
+                                    "HOUSE_NO": "5000",
+                                    "COUNTRY": "US",
+                                    "COUNTRYISO": "US",
+                                    "LANGU": "E",
+                                    "LANGU_ISO": "EN",
+                                    "REGION": "MA",
+                                    "SORT1": "HT B2B HIGH COM",
+                                    "TIME_ZONE": "CST",
+                                    "TAXJURCODE": "2202501001",
+                                    "TEL1_NUMBR": "617",
+                                    "TEL1_EXT": "3242575",
+                                    "ADDR_NO": "0000011878",
+                                    "E108CRMXIF_ADDRESS": {
+                                        "$": {
+                                            "SEGMENT": "1"
+                                        }
+                                    }
+                                },
+                                "E102CRMXIF_ADDRESS_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_ADDRESS_F"
+                                }
+                            },
+                            "E101CRMXIF_PARTNER_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_PARTNER_F"
+                            }
+                        }
+                    ]
+                },
+                "E101CRMXIF_ORGMAN_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_ORGMAN_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_ORGMAN": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_ORGMAN",
+                        "SALES_ORG": "O 50000609",
+                        "SALES_OFFICE": "O 50000612",
+                        "SALES_GROUP": "O 50000617",
+                        "SALES_ORG_RESP": "O 50000617",
+                        "DIS_CHANNEL": "30",
+                        "SERVICE_ORG": "O 50004982",
+                        "SERVICE_ORG_RESP": "O 50004982",
+                        "SERV_ORG_SHORT": "Service US",
+                        "SER_ORGRESP_SHT": "Service US",
+                        "E101CRMXIF_ORGMAN_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_ORGMAN_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_PRICING_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_PRICING_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_PRICING": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_PRICING",
+                        "EXCHG_TYPE": "M",
+                        "EXCHG_DATE": "20020130",
+                        "CUST_PRIC_PROC": "1",
+                        "REF_CURRENCY": "USD",
+                        "REF_CURRENCY_ISO": "USD",
+                        "CURRENCY": "USD",
+                        "CURRENCY_ISO": "USD",
+                        "PRICE_DATE": "20020130",
+                        "PAYMENT_TERMS": "0001",
+                        "DAYS_FROM_1": "000",
+                        "PERCENTAGE_1": " 0.000",
+                        "DAYS_FROM_2": "000",
+                        "PERCENTAGE_2": " 0.000",
+                        "DAYS_FROM_3": "000",
+                        "EXCHG_RATE": "   1.00000",
+                        "VALID_FROM": "              0",
+                        "VALID_TO": "              0",
+                        "TRANS_TIME": "              0",
+                        "SCRAP_VALUE": "        0.00",
+                        "E101CRMXIF_PRICING_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PRICING_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_BILLPLAN_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_BILLPLAN_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_BILLING_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_BILLING_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_BILLING": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_BILLING",
+                        "PERIOD_DATE": "              0",
+                        "SETTL_FROM": "              0",
+                        "SETTL_TO": "              0",
+                        "BILL_DATE": "              0",
+                        "INVCR_DATE": "              0",
+                        "SETTL_FIMA": "              0",
+                        "VALUE_DATE": "              0",
+                        "E101CRMXIF_BILLING_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_BILLING_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_CANCEL_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_CANCEL_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_CANCEL": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_CANCEL",
+                        "E101CRMXIF_CANCEL_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_CANCEL_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_SUBJECT_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_SUBJECT_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_REF_OBJECT_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_REF_OBJECT_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_SALES_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_SALES_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_SALES": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_SALES",
+                        "PO_DATE_SOLD": "00000000",
+                        "PO_DATE_SHIP": "00000000",
+                        "PROBABILITY": "000",
+                        "REQ_DLV_DATE": "              0",
+                        "RULE_REQ_DATE": "00000000000000000000000000000000",
+                        "MAX_LOC": " 0",
+                        "E101CRMXIF_SALES_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_SALES_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_SHIPPING_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_SHIPPING_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_SHIPPING": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_SHIPPING",
+                        "OVER_DLV_TOL": " 0.0",
+                        "UNDER_DLV_TOL": " 0.0",
+                        "DLV_PRIO": "00",
+                        "DLV_GROUP": "000",
+                        "MAX_PL_DLV": "0",
+                        "E101CRMXIF_SHIPPING_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_SHIPPING_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_PAYPLAN_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_PAYPLAN_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_PAYPLAN": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_PAYPLAN",
+                        "E101CRMXIF_PAYPLAN_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_PAYPLAN_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_APPOINTMENT_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_APPOINTMENT_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_CUMULATED_H_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_CUMULATED_H_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_CUMULATED_H": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_CUMULATED_H",
+                        "GROSS_WEIGHT": "           0.000",
+                        "NET_WEIGHT": "           0.000",
+                        "VOLUME": "           0.000",
+                        "GROSS_VALUE": "                  0.0000",
+                        "NET_VALUE": "                  0.0000",
+                        "NET_VALUE_MAN": "                  0.0000",
+                        "TAX_AMOUNT": "                  0.0000",
+                        "FREIGHT": "                  0.0000",
+                        "NET_WO_FREIGHT": "                  0.0000",
+                        "E101CRMXIF_CUMULATED_H_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_CUMULATED_H_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_STATUS_H_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_STATUS_H_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_STATUS_H": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_STATUS_H",
+                        "E101CRMXIF_STATUS_H_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_STATUS_H_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_STATUS_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_STATUS_XT",
+                    "DATAX": "X",
+                    "E101CRMXIF_STATUS": [
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_STATUS",
+                            "STATUS": "E0002",
+                            "USER_STAT_PROC": "CRMOPPOR",
+                            "ACTIVE": "X",
+                            "TXT04": "BARE",
+                            "TXT30": "in process",
+                            "E101CRMXIF_STATUS_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_STATUS_F"
+                            }
+                        },
+                        {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_STATUS",
+                            "STATUS": "I1003",
+                            "ACTIVE": "X",
+                            "TXT04": "PROC",
+                            "TXT30": "In Process",
+                            "E101CRMXIF_STATUS_F": {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_STATUS_F"
+                            }
+                        }
+                    ]
+                },
+                "E101CRMXIF_DOC_FLOW_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_DOC_FLOW_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_TEXT_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_TEXT_XT",
+                    "DATAX": "X",
+                    "E101CRMXIF_TEXT": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_TEXT",
+                        "TEXT_ID": "A002",
+                        "LANGUAGE": "E",
+                        "LANGUAGE_ISO": "EN",
+                        "LINEAMOUNT": "00005",
+                        "E101CRMXIF_TLINE": [
+                            {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_TLINE",
+                                "FORMAT_COL": "*",
+                                "TEXT_LINE": "Note....",
+                                "E101CRMXIF_TLINE_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_TLINE_F"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_TLINE",
+                                "FORMAT_COL": "*",
+                                "TEXT_LINE": "Second line of Note...",
+                                "E101CRMXIF_TLINE_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_TLINE_F"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_TLINE",
+                                "FORMAT_COL": "*",
+                                "TEXT_LINE": "Third line of note...",
+                                "E101CRMXIF_TLINE_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_TLINE_F"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_TLINE",
+                                "FORMAT_COL": "*",
+                                "TEXT_LINE": "Fourth line of Note...",
+                                "E101CRMXIF_TLINE_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_TLINE_F"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "SEGMENT": "1"
+                                },
+                                "APPL_SNAME": "CRMXIF_TLINE",
+                                "FORMAT_COL": "*",
+                                "TEXT_LINE": "Fifth line of note....",
+                                "E101CRMXIF_TLINE_F": {
+                                    "$": {
+                                        "SEGMENT": "1"
+                                    },
+                                    "APPL_SNAME": "CRMXIF_TLINE_F"
+                                }
+                            }
+                        ],
+                        "E101CRMXIF_TEXT_F": {
+                            "$": {
+                                "SEGMENT": "1"
+                            },
+                            "APPL_SNAME": "CRMXIF_TEXT_F"
+                        }
+                    }
+                },
+                "E101CRMXIF_CUSTOMER_H_X": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_CUSTOMER_H_X",
+                    "DATAX": "X",
+                    "E101CRMXIF_CUSTOMER_H": {
+                        "$": {
+                            "SEGMENT": "1"
+                        },
+                        "APPL_SNAME": "CRMXIF_CUSTOMER_H"
+                    }
+                },
+                "E101CRMXIF_IPM_RCHAR_XT": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_IPM_RCHAR_XT",
+                    "DATAX": "X"
+                },
+                "E101CRMXIF_ACTIVE_SWITCH": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_ACTIVE_SWITCH"
+                },
+                "E101CRMXIF_BUSTRANS_F": {
+                    "$": {
+                        "SEGMENT": "1"
+                    },
+                    "APPL_SNAME": "CRMXIF_BUSTRANS_F"
+                }
+            }
+        }
+    }
+}
